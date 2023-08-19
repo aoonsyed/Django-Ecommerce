@@ -1,0 +1,27 @@
+#card{
+    border-radius: 1rem;
+
+}
+#nav{
+    background: linear-gradient(115deg, rgb(246, 174, 59) 0%, rgb(245, 225, 206) 72%);
+}
+
+#style{
+    background-image: url('../images/bgg.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* #style{background-color: #508bfc;
+} */ */
+#typePassword{
+    border: 2px solid red;
+  border-radius: 5px;
+}
+#but{
+    background-color: #dd7039;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}

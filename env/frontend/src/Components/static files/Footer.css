@@ -1,0 +1,11 @@
+#link{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+#footer{
+    background: linear-gradient(115deg, rgb(246, 174, 59) 0%, rgb(245, 225, 206) 72%);
+}
+#font{
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+}

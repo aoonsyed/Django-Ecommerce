@@ -1,0 +1,126 @@
+#navigationBar{
+    background: linear-gradient(115deg, rgb(246, 174, 59) 0%, rgb(245, 225, 206) 72%);
+}
+.btn{
+    background-color: rgba(225, 153, 51, 0.998);
+    background-color:rgba(225, 153, 51, 0.998); /* Green */
+    color: rgb(243, 231, 231);
+    border: 2px solid #ea8f3f;
+    box-shadow: 0 8px 16px 0 rgba(221, 155, 57, 0.2), 0 6px 20px 0 rgba(236, 156, 37, 0.19);
+
+}
+.nav-link{
+    font-size: 15px;
+}
+.navbar-brand,.form-control me-2{
+    font-size: 200%;
+}
+.form-control{
+    font-size: 150%;
+}
+.btn{
+    font-size: 100%;
+}
+
+/* /* }  */
+.card-img-top{
+    /* margin-left: auto; */
+    height: 323px;
+    width: 323px ;
+}
+#button{
+    transition-duration: 0.4s;
+    background-color:rgba(225, 153, 51, 0.998); /* Green */
+    color: rgb(243, 231, 231);
+    border: 2px solid #ea8f3f;
+    box-shadow: 0 8px 16px 0 rgba(221, 155, 57, 0.2), 0 6px 20px 0 rgba(236, 156, 37, 0.19);
+    margin: 0;
+  /* position: absolute; */
+  top: 100%;
+  left: 100%;
+  /* -ms-transform: translate(-10%, -10%);
+  transform: translate(55%, 16%); */
+  
+
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* .row 
+{
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+/* .col {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  } */ 
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    /* background-color: #f1f1f1; */
+    margin-top:30px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 #FFE5B4; /* this adds the "card" effect */
+    /* padding: 5px; */
+    background-color: #FFF5EE;
+
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  td, thead, th{
+    font-size: x-large;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  .products-card-info{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+  }

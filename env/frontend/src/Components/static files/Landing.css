@@ -1,0 +1,64 @@
+
+#introCarousel
+{  margin-top: 1rem;
+    height: 50px;
+}
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  margin-top: 1rem;
+
+}
+
+.carousel-item:nth-child(1) {
+    margin-top: 1rem;
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 50vh;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+.mask{
+    background: linear-gradient(
+        45deg,
+        rgba(29, 236, 197, 0.7),
+        rgba(91, 14, 214, 0.7) 100%
+      );
+}
+#navbar{
+    z-index: 2000;
+}
+.mask{
+  background-color: rgba(251 251 251 0.15);
+}
+section{
+  background-color: #eee;
+}
